@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=OpenRGB
+Comment=Control RGB lighting without manufacturer software.
+Exec=openrgb %U
+Icon=openrgb
+Terminal=false
+Categories=Utility;
+
