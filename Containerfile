@@ -18,7 +18,6 @@ COPY openrgb.desktop /usr/share/applications/openrgb.desktop
 COPY icon.png /usr/share/icons/hicolor/128x128/apps/openrgb.png
 
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends libhidapi-hidraw0 libusb-1.0-0 && \
+    apt-get install -y --no-install-recommends libharfbuzz0b libhidapi-hidraw0 libusb-1.0-0 && \
     chmod 0755 /usr/bin/openrgb && \
     cpak-clean-junk
-
