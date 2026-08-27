@@ -4,7 +4,7 @@
   "name": "OpenRGB",
   "description": "Control RGB lighting without manufacturer software.",
   "version": "1.0rc3",
-  "image": "ghcr.io/containerpak/openrgb@sha256:8df45162ea2b346f9fecb732734ee4ab3805ddfe68083feba6c292ef8cfaf794",
+  "image": "ghcr.io/containerpak/openrgb@sha256:5f7ddfaa24bb6f7a5d0be404ade9cf1021d7354e613b9fd0a52611c24114716d",
   "binaries": [
     "/usr/bin/openrgb"
   ],
